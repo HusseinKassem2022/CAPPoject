@@ -1,0 +1,7 @@
+ID,name,biography,dateOfBirth,createdAt,createdBy,modifiedAt,modifiedBy
+5d49709d-9d56-4b88-9839-2950f9b38a81,Robert C. Martin,"Software engineer and author of Clean Code.",1952-12-05,2026-06-01T08:00:00Z,admin,2026-06-01T08:00:00Z,admin
+b8c72b91-7db4-40d4-8b8f-7d2d04c68f1f,Joshua Bloch,"Author of Effective Java.",1961-08-28,2026-06-01T08:15:00Z,admin,2026-06-01T08:15:00Z,admin
+4e55b3e9-1f4f-4f9d-a3b2-8d3d90ec6f2b,Martin Fowler,"Software architect and author.",1963-12-18,2026-06-01T08:30:00Z,admin,2026-06-01T08:30:00Z,admin
+fd57d71f-48c4-4df5-9d61-c95eb37d1c48,Andrew Hunt,"Co-author of The Pragmatic Programmer.",1964-01-01,2026-06-01T08:45:00Z,admin,2026-06-01T08:45:00Z,admin
+c27a88c8-6b77-42de-a5df-7c25f2c8d5c9,Thomas H. Cormen,"Professor and co-author of Introduction to Algorithms.",1956-01-01,2026-06-01T09:00:00Z,admin,2026-06-01T09:00:00Z,admin
+96f6a4f5-f0d8-4d13-99cb-3f3c9d8eab70,Eric Evans,"Author of Domain-Driven Design.",1965-01-01,2026-06-01T09:15:00Z,admin,2026-06-01T09:15:00Z,admin

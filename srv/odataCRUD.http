@@ -1,0 +1,56 @@
+GET http://localhost:4004/odata/v4/Catalog
+
+###
+GET http://localhost:4004/odata/v4/Catalog/Authors
+
+###
+GET http://localhost:4004/odata/v4/Catalog/Books
+
+###
+GET http://localhost:4004/odata/v4/Catalog/Books(8b55d2de-2b75-4dc7-9aaf-bf56fcd9d4f8)
+
+###
+PUT http://localhost:4004/odata/v4/Catalog/Books(8b55d2de-2b75-4dc7-9aaf-bf56fcd9d4f8)
+Content-Type: application/json
+
+{
+  "title": "Clean Code new",
+  "author_ID": "c27a88c8-6b77-42de-a5df-7c25f2c8d5c9",
+  "price": 100.5,
+  "publishedDate": "2026-06-29",
+  "digitalCopy": true
+}
+
+###
+
+GET http://localhost:4004/odata/v4/catalog/Books?$expand=author&$select=title,author/name
+
+###
+
+POST http://localhost:4004/odata/v4/catalog/Books
+Content-Type: application/json
+
+{
+  "title": "Test Book",
+  "author_ID": "c27a88c8-6b77-42de-a5df-7c25f2c8d5c9",
+  "price": -10.99,
+  "publishedDate": "2026-06-23",
+  "digitalCopy": true
+}
+
+###
+GET http://localhost:4004/odata/v4/catalog/Authors
+
+###
+
+POST http://localhost:4004/odata/v4/catalog/Authors
+Content-Type: application/json
+
+{
+    "name": "New12 Author"
+}
+
+###
+
+DELETE http://localhost:4004/odata/v4/catalog/Books(8b55d2de-2b75-4dc7-9aaf-bf56fcd9d4f8)
+
